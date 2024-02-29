@@ -1,0 +1,30 @@
+$main-txt-color: #111111;
+
+.main-container {
+   background: #ffffff;
+
+   &__heading-1 {
+      color: #4a4ff2;
+      font-size: 22px;
+      font-weight: bold;
+   }
+
+   &__info {
+      color: $main-txt-color;
+      font-size: 40px;
+      font-weight: bold;
+   }
+
+   &__highlight-text {
+      color: #4a4ff2;
+   }
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(7, 1fr);
+   //    gap: 20px;
+   width: 100%;
+   height: 100vh;
+}

@@ -1,0 +1,15 @@
+@use "fonts";
+@use "main";
+
+@import "header";
+@import "main";
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: fonts.$main-font;
+   color: main.$main-txt-color;
+}
