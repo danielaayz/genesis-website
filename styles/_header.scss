@@ -1,0 +1,37 @@
+$link-color: #111111;
+$hover-color: #4a4ff2;
+
+header {
+   height: 16vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+}
+
+.nav {
+   min-width: 162px;
+   display: flex;
+   &__list {
+      width: 100%;
+      max-width: 162px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__li {
+      list-style: none;
+   }
+
+   &__link,
+   &:visited {
+      color: $link-color;
+      text-decoration: none;
+      &:hover,
+      &:active {
+         color: $hover-color;
+      }
+   }
+}
