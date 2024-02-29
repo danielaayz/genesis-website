@@ -1,21 +1,44 @@
-$main-txt-color: #111111;
-
-.main-container {
-   background: #ffffff;
-
-   &__heading-1 {
-      color: #4a4ff2;
-      font-size: 22px;
-      font-weight: bold;
+.main {
+   &__card-title {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
    }
 
+   &__card-quote {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+   }
+
+   &__card-quote img {
+      max-width: 30px;
+      max-height: 2px;
+   }
+   &__quote {
+      color: rgb(17, 17, 17);
+      opacity: 0.6;
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 400;
+   }
+}
+
+.title {
    &__info {
-      //   color: $main-txt-color;
-      font-size: 40px;
-      font-weight: bold;
+      max-width: 635px;
    }
-
-   &__highlight-text {
+   &__header {
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: -0.423px;
+      color: #4a4ff2;
+   }
+   &__highlight {
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 60px;
       color: #4a4ff2;
    }
 }
