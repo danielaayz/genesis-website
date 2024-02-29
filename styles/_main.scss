@@ -73,5 +73,14 @@
 }
 
 .card-3 {
+   width: 100%;
    display: flex;
+   justify-content: space-around;
+   border-top: 2px solid #d8d8d8;
+   padding-top: 48px;
+
+   &__heading {
+      font-size: 22px;
+      font-weight: 700;
+   }
 }
