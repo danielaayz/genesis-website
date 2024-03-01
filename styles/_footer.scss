@@ -1,0 +1,17 @@
+@use "header";
+
+.footer {
+   display: flex;
+   justify-content: space-between;
+
+   &__links {
+      display: flex;
+      align-items: baseline;
+   }
+   &__icon:hover {
+      color: header$hover-color;
+   }
+   &__img {
+      margin-left: 24px;
+   }
+}
