@@ -3,13 +3,23 @@
 .footer {
    display: flex;
    justify-content: space-between;
+   align-items: center;
+   height: 9vh;
 
    &__links {
+      width: 100%;
+      max-width: 353px;
       display: flex;
       align-items: baseline;
    }
-   &__icon:hover {
-      color: header$hover-color;
+   &__icon,
+   &:visited {
+      color: header.$link-color;
+      &:hover,
+      &:active {
+         color: header.$hover-color;
+      }
+      margin-left: 24px;
    }
    &__img {
       margin-left: 24px;
