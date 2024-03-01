@@ -25,6 +25,7 @@ header {
    &:visited {
       color: $link-color;
       text-decoration: none;
+      font-weight: 700;
       &:hover,
       &:active {
          color: $hover-color;
