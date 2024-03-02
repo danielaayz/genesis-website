@@ -1,0 +1,44 @@
+.form {
+   width: 100%;
+   max-width: 475px;
+
+   &__input {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid rgba(151, 151, 151, 0.3);
+      outline: none;
+      padding-bottom: 16px;
+      margin-bottom: 46px;
+      color: rgba(17, 17, 17, 0.6);
+      font-size: 16px;
+      font-weight: 700;
+      opacity: 0.6;
+      &:hover {
+         background: #d8d8d8;
+      }
+      &:focus {
+         outline: none;
+         background: 2px #d8d8d8;
+      }
+   }
+}
+
+.button {
+   padding: 14px 35px 16px 35px;
+   min-height: 50px;
+   min-width: 125px;
+   background: #4a4ff2;
+   color: #fff;
+   font-weight: 700;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   opacity: 0.6;
+   transition-duration: 0.3s;
+   &:hover {
+      opacity: 1;
+   }
+   &:active {
+      background: #4a98f2;
+   }
+}
