@@ -14,9 +14,11 @@
    }
    &__icon,
    &:visited {
+      transition-duration: 0.3s;
       color: header.$link-color;
       &:hover,
       &:active {
+         transition-duration: 0.3s;
          color: header.$hover-color;
       }
       margin-left: 24px;
