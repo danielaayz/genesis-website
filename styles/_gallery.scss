@@ -1,56 +1,74 @@
+.grid-position {
+   width: 100%;
+   margin: 100px 0 20px 0;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
 .grid-container {
+   width: 100%;
    display: grid;
    grid-template-columns: repeat(9, 1fr);
    grid-template-rows: repeat(32, 1fr);
+   grid-gap: 10px;
+}
+
+.grid-element {
    width: 100%;
-   height: 189vh;
-   margin: 100px 0;
+   height: auto;
 }
 
 .item1 {
-   grid-area: 1/1/8/3;
+   grid-area: 1/1/7/4;
 }
 
 .item2 {
-   grid-area: 8/1/16/3;
+   grid-area: 7/1/14/4;
 }
 
 .item3 {
-   grid-area: 16/1/24/3;
+   grid-area: 14/1/21/4;
 }
 
 .item4 {
-   grid-area: 24/1/33/4;
+   grid-area: 21/1/29/4;
 }
 
 .item5 {
-   grid-area: 1/4/7/6;
+   grid-area: 1/4/6/7;
 }
 
 .item6 {
-   grid-area: 7/4/14/6;
+   grid-area: 6/4/12/7;
 }
 
 .item7 {
-   grid-area: 14/4/23/6;
+   grid-area: 12/4/20/7;
 }
 
 .item8 {
-   grid-area: 23/4/33/6;
+   grid-area: 20/4/29/7;
 }
 
 .item9 {
-   grid-area: 1/7/11/9;
+   grid-area: 1/7/10/10;
 }
 
 .item10 {
-   grid-area: 11/7/18/9;
+   grid-area: 10/7/16/10;
 }
 
 .item11 {
-   grid-area: 18/7/27/9;
+   grid-area: 16/7/24/10;
 }
 
 .item12 {
-   grid-area: 27/7/33/9;
+   grid-area: 24/7/29/10;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
 }

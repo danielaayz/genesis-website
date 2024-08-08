@@ -27,3 +27,16 @@
       margin-left: 24px;
    }
 }
+
+/* mobile devices */
+@media (max-width: 480px) {
+   .footer {
+      align-items: flex-start;
+      flex-direction: column;
+
+      &__links {
+         margin-top: 24px;
+         padding-bottom: 24px;
+      }
+   }
+}

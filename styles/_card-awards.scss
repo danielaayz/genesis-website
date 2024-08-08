@@ -45,3 +45,41 @@
    font-weight: 400;
    margin-bottom: 12px;
 }
+
+/* Tablets and iPads */
+@media (min-width: 481px) and (max-width: 1200px) {
+   .card-awards-2 {
+      //display: flex;
+      flex-direction: column;
+
+      &__container {
+         margin-bottom: 42px;
+      }
+   }
+}
+
+/* mobile devices */
+@media (max-width: 480px) {
+   .card-awards {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .card-awards-2 {
+      //display: flex;
+      flex-direction: column;
+
+      &__container {
+         margin-bottom: 42px;
+      }
+
+      &__container-2 {
+         font-size: 1rem;
+      }
+
+      &__container-3 {
+         flex-direction: column;
+         margin-bottom: 32px;
+      }
+   }
+}

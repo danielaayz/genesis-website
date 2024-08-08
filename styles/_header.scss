@@ -33,3 +33,13 @@ header {
       }
    }
 }
+
+/* mobile devices */
+@media (max-width: 480px) {
+   .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 32px;
+   }
+}

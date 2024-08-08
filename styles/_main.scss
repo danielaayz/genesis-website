@@ -1,3 +1,9 @@
 @import "gallery";
 @import "card";
 @import "card-awards";
+
+.main {
+   &__container {
+      overflow: hidden;
+   }
+}
